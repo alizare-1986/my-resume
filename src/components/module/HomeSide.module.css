@@ -1,0 +1,47 @@
+.tables{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    align-items: center;
+    margin-top: 20px;
+   
+}
+
+.tables div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   
+       
+     
+}
+.tables h2{
+    color: blue;
+    font-size: 1.8rem;
+    font-weight: 800;
+    
+}
+.tables p{
+    margin-top: 15px;
+    color: yellowgreen;
+
+}
+.percent p{
+    color: brown;
+}
+.educational{
+    display: flex;
+    flex-direction: column;
+margin-right: 70px;   
+margin-top: 20px; 
+}
+.educational h2{
+    color: blue;
+    font-size: 1.9rem;
+}
+.educational p{
+    margin-top: 10px;
+    color: yellow;
+    font-size: 1.1rem;
+}
