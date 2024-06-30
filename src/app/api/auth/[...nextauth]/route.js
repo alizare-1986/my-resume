@@ -4,7 +4,6 @@ import NextAuth from "next-auth";
 import  CredentialsProvider  from "next-auth/providers/credentials";
 import User from "src/model/User";
 
-
 export const authOptions = {
   session: { strategy:'jwt' },
   providers: [

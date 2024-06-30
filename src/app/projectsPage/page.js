@@ -8,7 +8,7 @@ const Projects = async () => {
  
   const session = await getServerSession(authOptions);
   if (!session) {
-   redirect("/")
+   redirect("/signin")
 
   }
 

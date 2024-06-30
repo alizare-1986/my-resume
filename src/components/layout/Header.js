@@ -6,6 +6,7 @@ import Link from "next/link";
 import { FiLogIn } from "react-icons/fi";
 function Header() {
   const { data } = useSession();
+  
  
   return (
     <header className={styles.header}>
